@@ -1,0 +1,18 @@
+{
+  "test_loss": 5.5576,
+  "test_perplexity": 259.1953,
+  "test_token_accuracy": 0.2021,
+  "test_token_accuracy_pct": 20.21,
+  "total_evaluated_tokens": 287,
+  "total_correct_tokens": 58,
+  "vocabulary_size": 886,
+  "model_parameters": 158336,
+  "trainable_parameters": 158336,
+  "best_epoch": 15,
+  "best_val_loss": 5.805138166993856,
+  "dataset_splits": {
+    "train_sentences": 157,
+    "val_sentences": 19,
+    "test_sentences": 21
+  }
+}

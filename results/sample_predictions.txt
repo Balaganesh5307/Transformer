@@ -1,0 +1,44 @@
+======================================================================
+   TRANSFORMER NEXT-TOKEN PREDICTION SAMPLE REPORT
+======================================================================
+
+Prompt:     'The sun rises in the'
+Top Next:   'solar' (2.50%)
+Top 3:      1. solar (2.5%), 2. the (2.4%), 3. atmosphere (1.6%)
+Completion: 'the sun rises in the solar system.'
+----------------------------------------------------------------------
+Prompt:     'Machine learning is a'
+Top Next:   'geometric' (4.03%)
+Top 3:      1. geometric (4.0%), 2. a (3.0%), 3. model (2.1%)
+Completion: 'machine learning is a geometric angles.'
+----------------------------------------------------------------------
+Prompt:     'Water freezes into solid'
+Top Next:   'ice' (5.28%)
+Top 3:      1. ice (5.3%), 2. and (2.8%), 3. solid (2.6%)
+Completion: 'water freezes into solid ice in the solar system.'
+----------------------------------------------------------------------
+Prompt:     'Trees produce oxygen through'
+Top Next:   'the' (3.62%)
+Top 3:      1. the (3.6%), 2. computer (3.1%), 3. deep (1.9%)
+Completion: 'trees produce oxygen through the solar system.'
+----------------------------------------------------------------------
+Prompt:     'Students attend schools and'
+Top Next:   'other' (1.58%)
+Top 3:      1. other (1.6%), 2. <EOS> (1.4%), 3. strong (1.3%)
+Completion: 'students attend schools and other use to their sea ice'
+----------------------------------------------------------------------
+Prompt:     'A triangle is a geometric'
+Top Next:   'polygon' (1.99%)
+Top 3:      1. polygon (2.0%), 2. angles (1.6%), 3. right (1.5%)
+Completion: 'a triangle is a geometric polygon token and four right angles'
+----------------------------------------------------------------------
+Prompt:     'Artificial intelligence aims to'
+Top Next:   'their' (2.40%)
+Top 3:      1. their (2.4%), 2. the (2.2%), 3. all (1.3%)
+Completion: 'artificial intelligence to their numerical data and other use'
+----------------------------------------------------------------------
+Prompt:     'Light travels faster than'
+Top Next:   'than' (3.45%)
+Top 3:      1. than (3.4%), 2. sound (1.7%), 3. system (1.5%)
+Completion: 'light travels faster than than and other of the solar'
+----------------------------------------------------------------------

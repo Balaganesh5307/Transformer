@@ -1,0 +1,207 @@
+# Project Corpus: Educational Multi-Domain English Text
+# License: Public Domain / CC0 1.0 Universal
+# Designed for training a beginner-level causal Transformer language model.
+
+The sun rises in the east and sets in the west.
+Every morning the bright sun rises in the east.
+Every evening the glowing sun sets in the west.
+The morning sun brings light and warmth to the earth.
+The sun is a giant star at the center of the solar system.
+The earth orbits around the sun once every year.
+The earth orbits around the sun in three hundred and sixty five days.
+The moon orbits around the earth and reflects the light of the sun.
+During the day the sky is bright blue and clear.
+At night the moon and bright stars shine in the dark sky.
+Bright stars twinkle across the vast night sky.
+The solar system contains eight planets orbiting the central sun.
+Mercury is the closest planet to the sun in the solar system.
+Jupiter is the largest planet in the solar system.
+Saturn is famous for its beautiful rings of ice and rock.
+
+Light travels faster than sound through empty space.
+Sound waves require a physical medium such as air or water to travel.
+Sound travels much slower than light in the atmosphere.
+Water is essential for all known forms of living organisms.
+Fresh water is necessary for all plants and animals to survive.
+Water freezes into solid ice at zero degrees Celsius.
+Liquid water turns into solid ice when cooled below freezing temperature.
+Water boils and turns into hot steam at one hundred degrees Celsius.
+Boiling water produces hot steam and vapor.
+When liquid water evaporates it forms clouds in the sky.
+Clouds gather in the atmosphere and release water as rain or snow.
+Rain falls from dark clouds and waters the fertile soil.
+Rivers flow from high mountains down into the deep blue ocean.
+Fresh water flows through winding rivers toward the sea.
+The ocean covers more than seventy percent of the earth surface.
+Many species of fish and marine mammals live in the deep ocean.
+Coral reefs provide shelter and food for colorful sea creatures.
+Forests are home to many wild animals birds and tall green trees.
+Trees absorb carbon dioxide from the air and produce fresh oxygen.
+Green trees produce oxygen and clean the air we breathe.
+Photosynthesis is the natural process by which green plants make food using sunlight.
+Green plants use sunlight water and carbon dioxide to make food.
+Plants need sunlight fertile soil and fresh water to grow healthy and strong.
+Flowers bloom in the warm spring and attract bees and butterflies.
+In the autumn leaves change their color to yellow red and brown before falling.
+During the cold winter snow falls and covers the quiet ground in white.
+Animals adapt to their natural environment to survive and reproduce.
+Birds have lightweight feathers and strong wings that allow them to fly high in the sky.
+Eagles have sharp vision and powerful talons to hunt for food.
+Dolphins are intelligent mammals that communicate using clicks and whistles.
+Whales are the largest living animals on the entire planet.
+Lions live in family groups called prides across the open savanna.
+Elephants have long trunks that they use to grab food and drink water.
+
+Machine learning is a modern branch of artificial intelligence.
+Machine learning is a subset of artificial intelligence.
+Artificial intelligence aims to create computer systems capable of intelligent behavior.
+Artificial intelligence is a major field of modern computer science.
+Computer science studies computation information algorithms and digital systems.
+Machine learning algorithms learn meaningful patterns directly from data.
+Machine learning models learn representations from training data.
+Supervised learning uses input features paired with ground truth target labels.
+Supervised learning trains a model to map inputs to correct outputs.
+Unsupervised learning discovers hidden structures and clusters in unlabeled data.
+Unsupervised learning finds patterns in data without target labels.
+Reinforcement learning trains autonomous agents using rewards and penalties.
+A neural network is composed of interconnected layers of artificial neurons.
+Deep learning uses artificial neural networks with multiple hidden layers.
+Deep neural networks learn hierarchical representations from complex data.
+The input layer receives raw numerical data and passes it forward.
+Each hidden layer extracts increasingly abstract features from the input data.
+The output layer produces final predictions such as class probabilities or continuous values.
+Weights and biases are the learnable parameters of a neural network.
+During training the model calculates a loss function to measure prediction errors.
+The loss function measures the difference between predictions and actual targets.
+Backpropagation computes the mathematical gradients of the loss with respect to all weights.
+The optimizer updates the model weights in the direction that minimizes the loss.
+Gradient descent is a fundamental optimization algorithm used in machine learning.
+The learning rate controls the step size taken during weight updates.
+A learning rate that is too large can cause the training process to diverge.
+A learning rate that is too small makes the training process very slow.
+Overfitting occurs when a model memorizes the training data and fails on unseen test data.
+A model that overfits performs well on training data but poorly on test data.
+Regularization techniques such as dropout and weight decay help prevent overfitting.
+Dropout randomly deactivates a fraction of neurons during each training step.
+Validation data is used to monitor generalization performance and detect overfitting early.
+The test set must remain completely untouched until final evaluation to prevent data leakage.
+A confusion matrix summarizes true positive false positive true negative and false negative predictions.
+Accuracy measures the percentage of correct predictions out of all evaluated samples.
+Precision measures the proportion of positive predictions that are truly correct.
+Recall measures the proportion of actual positive instances that are successfully identified.
+The F1 score is the harmonic mean of precision and recall.
+
+Transformers are modern neural network architectures designed for sequential data processing.
+The Transformer model was introduced in the landmark paper titled Attention Is All You Need.
+Unlike recurrent neural networks the Transformer processes all input tokens in parallel.
+Parallel processing allows Transformers to train much faster on modern hardware accelerators.
+The central innovation of the Transformer is the self attention mechanism.
+Self attention allows each token in a sequence to dynamically attend to all other tokens.
+The attention mechanism calculates relevance scores between pairs of tokens.
+Scaled dot product attention uses query key and value vectors.
+The query vector represents the current token looking for relevant information.
+The key vector represents the content and identity of each candidate token.
+The value vector holds the actual semantic information to be aggregated.
+Attention scores are computed by taking the dot product of queries and keys.
+The dot products are divided by the square root of the key dimension for numerical stability.
+Softmax is applied to normalize the attention scores into a valid probability distribution.
+The resulting attention weights sum to one across all evaluated key positions.
+The output of self attention is a weighted sum of the value vectors.
+Causal self attention uses an upper triangular mask to prevent looking into the future.
+Causal masking is essential for next token prediction and autoregressive language modeling.
+Without causal masking a language model would simply cheat by copying future tokens.
+Multi head attention runs several attention mechanisms in parallel with different linear projections.
+Each attention head can learn to focus on different types of linguistic relationships.
+One head might track grammatical agreement while another head tracks semantic dependencies.
+Positional encoding provides the model with information about the order of tokens in the sequence.
+Because self attention is permutation invariant positional information is strictly necessary.
+Learnable positional embeddings assign a trained vector representation to each sequence index.
+Residual connections add the input of a sublayer directly to its output.
+Residual connections allow gradients to flow smoothly through deep networks during backpropagation.
+Layer normalization stabilizes training dynamics by normalizing activations across the feature dimension.
+The feed forward network applies two linear transformations with a non linear activation function.
+GELU and ReLU are popular activation functions used in Transformer feed forward sublayers.
+Autoregressive language models predict the next token given all preceding context tokens.
+Greedy decoding always selects the token with the highest predicted probability.
+Sampling selects the next token probabilistically according to the model output distribution.
+Temperature scaling adjusts the sharpness of the probability distribution during text generation.
+A lower temperature makes generation more confident and deterministic.
+A higher temperature increases randomness and stylistic diversity.
+
+Education is the foundation for personal growth and societal development.
+Students attend schools and universities to acquire knowledge critical thinking and practical skills.
+Students study hard in the library to prepare for examinations.
+Teachers inspire and guide young minds to explore new ideas and ask meaningful questions.
+Teachers guide students in the classroom to develop important skills.
+Reading books expands vocabulary and improves language comprehension.
+Reading books regularly expands your vocabulary and understanding of the world.
+Libraries provide quiet spaces filled with literature history science and philosophy.
+Curiosity drives scientific exploration and leads to groundbreaking discoveries.
+Mathematics is the universal language used to describe the laws of nature.
+Mathematics provides the logical foundation for science engineering and computer programming.
+Algebra geometry and calculus are fundamental branches of modern mathematics.
+A triangle is a geometric polygon with three edges and three interior angles.
+A triangle has three sides and three angles.
+The sum of interior angles in any flat triangle is always one hundred and eighty degrees.
+A square is a geometric shape with four equal sides and four right angles.
+A rectangle has four sides and four right angles with opposite sides equal in length.
+A circle is defined as the set of all points equidistant from a central point.
+The circumference of a circle is calculated by multiplying its diameter by pi.
+Computer science combines mathematics logic and engineering to build digital software.
+An algorithm is a step by step sequence of instructions designed to solve a specific problem.
+Algorithms solve computational problems efficiently and accurately.
+Data structures organize and store information efficiently in computer memory.
+Arrays linked lists stacks and queues are basic linear data structures.
+Binary search trees and hash tables provide fast access and retrieval of records.
+Sorting algorithms arrange elements in ascending or descending numerical order.
+Modern operating systems manage computer hardware resources such as processor and memory.
+The central processing unit executes program instructions and performs mathematical calculations.
+Random access memory provides fast temporary storage for active applications and open files.
+Solid state drives store digital information permanently using non volatile flash memory.
+Computer networks connect devices across the globe using standardized communication protocols.
+The internet enables instant sharing of knowledge research and cultural experiences worldwide.
+
+Nature operates through elegant cycles of energy matter and ecological balance.
+The water cycle continuously moves moisture between the atmosphere oceans and land.
+The carbon cycle circulates vital carbon atoms through living beings rocks and the atmosphere.
+Energy flows from the bright sun to green plants and then to herbivorous and carnivorous animals.
+Decomposers such as fungi and soil bacteria break down organic matter into nutrient rich soil.
+Healthy soil supports lush plant growth and filters fresh groundwater.
+Bees and other pollinating insects play a critical role in agricultural food production.
+Without pollinators many flowering plants and fruit crops would fail to reproduce.
+Rivers carve deep canyons through solid rock over millions of years of gentle erosion.
+Mountains are formed by the slow collision of giant tectonic plates within the earth crust.
+Earthquakes occur when accumulated geological stress along a fault line is suddenly released.
+Volcanoes erupt when molten magma rises from deep underground to the surface.
+Fresh lava cools down into solid igneous rock over time.
+Glaciers are massive rivers of dense ice that shape valleys as they slowly advance.
+The climate of a region is determined by latitude altitude ocean currents and prevailing winds.
+Tropical rainforests receive abundant rainfall and harbor the greatest biological diversity on land.
+Deserts are arid landscapes where living organisms have evolved remarkable water conservation strategies.
+Cacti store large amounts of water in their thick green stems to survive prolonged droughts.
+Camels can travel across vast sand dunes for many days without drinking water.
+The polar regions are covered with thick sheets of permanent ice and endure freezing temperatures.
+Penguins thrive in the icy waters of Antarctica thanks to their dense waterproof plumage.
+Polar bears hunt for seals across the floating sea ice of the northern Arctic.
+Every living species has a unique ecological niche that contributes to the resilience of the ecosystem.
+
+Language is the primary tool humans use to share complex thoughts and emotions.
+Words are composed of individual letters sounds and meaningful grammatical units.
+Sentences combine words according to structured grammatical rules of syntax.
+A noun names a person place object concept or living creature.
+A verb expresses an action occurrence state of being or mental condition.
+An adjective describes or modifies the specific qualities of a noun.
+An adverb modifies a verb adjective or another adverb to indicate manner time or degree.
+Prepositions establish spatial temporal or logical relationships between nouns and other words.
+Conjunctions connect words phrases or independent clauses into coherent compound sentences.
+Punctuation marks such as periods commas and question marks clarify the intended meaning of written text.
+A paragraph brings together related sentences focused on a single central idea or argument.
+Clear communication requires accurate vocabulary proper grammar and logical organization of thoughts.
+Writing essays and research papers helps students develop disciplined analytical thinking.
+Critical thinking enables individuals to evaluate evidence objectively and make sound decisions.
+Continuous lifelong learning keeps the human mind active curious and adaptable throughout life.
+Knowledge empowers communities to solve complex social economic and environmental challenges.
+Scientific research relies on empirical observation controlled experimentation and rigorous peer review.
+Collaboration between scientists across different nations accelerates the pace of innovation.
+Technology should be developed responsibly with consideration for human welfare and ethical principles.
+Curiosity creativity and dedication are the driving forces behind human intellectual progress.
