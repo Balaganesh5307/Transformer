@@ -118,39 +118,6 @@ In next-token prediction over a vocabulary of **886 unique tokens**, random gues
 | **Training Accuracy** | 0.11% | 10.45% | **70.40%** (at Ep 30) | High syntactic convergence |
 
 ---
-
-## 8. How to Run the Project (Windows PowerShell)
-
-Ensure commands are executed from within the `transformers/` directory using **Python 3.12**:
-
-```powershell
-cd "c:\Users\bg695\Desktop\COE Projects\AICEO\transformers"
-```
-
-### 1. Interactive Custom Prompt Prediction (New)
-Type custom sentences interactively to view live candidate distributions:
-```powershell
-& "C:\Users\bg695\AppData\Local\Programs\Python\Python312\python.exe" main.py --mode predict -i
-```
-
-### 2. Single Prompt Prediction via CLI
-```powershell
-& "C:\Users\bg695\AppData\Local\Programs\Python\Python312\python.exe" main.py --mode predict --prompt "Water freezes into solid"
-```
-
-### 3. Evaluate Held-Out Test Set Metrics
-```powershell
-& "C:\Users\bg695\AppData\Local\Programs\Python\Python312\python.exe" main.py --mode evaluate
-```
-
-### 4. Run Complete End-to-End Pipeline
-Executes unit tests, trains the model, evaluates test metrics, generates plots, and exports sample predictions:
-```powershell
-& "C:\Users\bg695\AppData\Local\Programs\Python\Python312\python.exe" main.py --mode all
-```
-
-### 5. Launch Interactive Streamlit Web Application
-```powershell
 streamlit run app.py
 ```
 Provides a browser interface with interactive Top-5 probability bars, temperature sliders, and 2D causal attention heatmaps.
